@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.10.0 on win32)" generated="20211027 12:45:15.745" rpa="false" schemaversion="2">
+<suite id="s1" name="Globo" source="C:\Users\10135\Desktop\automatizados\robot\testes automatizados\tests\globo.robot">
+<test id="s1-t1" name="Desafio">
+<kw name="Abrir navegador" library="globo" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://www.grocerycrud.com/v1.x/demo/my_boss_is_in_a_hurry/bootstrap</arg>
+<arg>google chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20211027 12:45:15.979" level="INFO">Opening browser 'google chrome' to base url 'https://www.grocerycrud.com/v1.x/demo/my_boss_is_in_a_hurry/bootstrap'.</msg>
+<status status="PASS" starttime="20211027 12:45:15.979" endtime="20211027 12:45:20.191"/>
+</kw>
+<status status="PASS" starttime="20211027 12:45:15.979" endtime="20211027 12:45:20.191"/>
+</kw>
+<kw name="Acessar a página home do site" library="globo">
+<kw name="Go To" library="SeleniumLibrary">
+<arg>https://www.grocerycrud.com/v1.x/demo/my_boss_is_in_a_hurry/bootstrap</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20211027 12:45:20.192" level="INFO">Opening url 'https://www.grocerycrud.com/v1.x/demo/my_boss_is_in_a_hurry/bootstrap'</msg>
+<status status="PASS" starttime="20211027 12:45:20.192" endtime="20211027 12:45:20.829"/>
+</kw>
+<status status="PASS" starttime="20211027 12:45:20.192" endtime="20211027 12:45:20.829"/>
+</kw>
+<kw name="Selecionar no campo" library="globo">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@id="switch-version-select"]/option[4]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211027 12:45:20.831" level="INFO">Clicking element 'xpath=//*[@id="switch-version-select"]/option[4]'.</msg>
+<status status="PASS" starttime="20211027 12:45:20.830" endtime="20211027 12:45:22.536"/>
+</kw>
+<status status="PASS" starttime="20211027 12:45:20.830" endtime="20211027 12:45:22.536"/>
+</kw>
+<status status="PASS" starttime="20211027 12:45:15.978" endtime="20211027 12:45:22.537"/>
+</test>
+<status status="PASS" starttime="20211027 12:45:15.746" endtime="20211027 12:45:22.538"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Globo">Globo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

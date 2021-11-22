@@ -1,0 +1,15 @@
+1635346204791	geckodriver	INFO	Listening on 127.0.0.1:62592
+1635346207757	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62593" "-no-remote" "-profile" "C:\\Users\\10135\\AppData\\Local\\Temp\\rust_mozprofile0WA2Ob"
+1635346208193	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\10135\\AppData\\Local\\Temp\\rust_mozprofile0WA2Ob\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62593/devtools/browser/10e2631b-badc-40c7-8637-ed0378a5c69d
+1635346211267	Marionette	INFO	Listening on port 62606
+1635346211646	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1635346214676	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1635346216222	Marionette	INFO	Stopped listening on port 62606
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+[Parent 25780, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
