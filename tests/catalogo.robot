@@ -14,13 +14,13 @@ ${BROWSER}   google chrome
 
 *** Test case ***
 Novo chamado TMS
-    Acessar a página home do site
+    Acessar a página
     Acessar a página home do site
     Digitar o nome do Login "cervello" no campo de Login
     Digitar a senha "cervello01" no campo de senha
     Clicar no botão "entrar"
     Clicar no botão "continuar"
-    Clicar no botão "novo chamado"
+    Clique no modulo catálogo
 
 
 

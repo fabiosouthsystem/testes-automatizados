@@ -1,7 +1,7 @@
 *** settings ***
 library  SeleniumLibrary
 
-Resource           ../resource/tms.robot
+Resource           ../resource/tmssebrae.robot
 Test SETUP         Abrir navegador
 Test TEARDOWN      Fechar navegador
 
@@ -9,7 +9,7 @@ Test TEARDOWN      Fechar navegador
 ### TEARDOWN ele roda keyword depois de uma suite ou um TESTE
 
 *** variables ***
-${URL}   http://www.cervelloesmhomolog.com.br/FastTrack/
+${URL}   https://www.cervelloesmhomolog.com.br/Sebrae
 ${BROWSER}   google chrome
 
 *** Test case ***
